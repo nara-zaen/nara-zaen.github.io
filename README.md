@@ -1,8 +1,13 @@
 
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Nara Zaen - Jadwal Sholat, Dzikir, dan Kuis Ramadhan</title>
+    <meta name="description" content="Temukan jadwal sholat, dzikir harian, kuis Ramadhan, dan konten Islami lainnya dari Nara Zaen. Klaim voucher dan nikmati pengalaman YouTube Premium.">
+    <meta name="keywords" content="nara zaen, zara zaen, jadwal sholat, dzikir, kuis ramadhan, voucher, youtube premium, islami">
+    <meta name="author" content="Nara Zaen">
 <style>
         body, html {
             margin: 0;
