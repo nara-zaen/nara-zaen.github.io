@@ -1,0 +1,366 @@
+body {
+  font-family: "Abel";
+  background-color: black;
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: azure;
+}
+
+.tombol-utama {
+  text-align: center;
+}
+
+.tombol {
+  display: block;
+  position: absolute;
+  line-height: 100px;
+  width: 100px;
+  background-image: url("hover-hex.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: rgb(28, 164, 255);
+  text-decoration: none;
+}
+
+.bagian {
+  display: flex;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .bagian {
+    min-height: 100vh;
+  }
+}
+
+.col2 {
+  width: 50%;
+  float: left;
+  padding: 50px;
+  margin-right: 50px;
+}
+
+.col2-l {
+  width: 45%;
+  float: left;
+}
+
+@media (max-width: 1100px) {
+  .col2-l {
+    width: 55%;
+  }
+}
+
+.col2-r {
+  float: left;
+  padding-top: 10px;
+}
+
+.nama {
+  font-size: 70px;
+  color: rgb(28, 164, 255);
+}
+
+.panggilan {
+  color: whitesmoke;
+}
+
+.nim {
+  font-size: 20px;
+  color: aquamarine;
+}
+
+a:link.hex {
+  text-decoration: none;
+}
+
+.hex {
+  display: inline-block;
+  width: 150px;
+  line-height: 150px;
+  position: relative;
+  background-image: url("hex.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.hex-4 {
+  background-image: url("photo2.png");
+}
+
+.hex:hover {
+  background-image: url("hover-hex.png");
+  font-size: 125%;
+}
+
+.hex-4:hover {
+  background-image: url("photo1.png");
+}
+
+.baris {
+  text-align: center;
+}
+
+@media only screen and (min-width: 1250px) {
+  .col2-r {
+    padding-left: 10px;
+  }
+
+  .hex-1 {
+    top: 95px;
+    left: 15px;
+  }
+
+  .hex-2 {
+    top: 15px;
+  }
+
+  .hex-3 {
+    top: 95px;
+    right: 15px;
+  }
+
+  .hex-4 {
+    width: 200px;
+    height: 200px;
+  }
+
+  .hex-5 {
+    bottom: 100px;
+    left: 15px;
+  }
+
+  .hex-6 {
+    bottom: 20px;
+  }
+
+  .hex-7 {
+    bottom: 100px;
+    right: 15px;
+  }
+}
+
+/*  */
+/*  */
+/* TENTANG AKU */
+/*  */
+/*  */
+
+.box {
+  width: 80%;
+  margin: auto;
+}
+
+h1 {
+  font-size: 250%;
+  color: rgb(28, 164, 255);
+  text-align: center;
+}
+
+.profil img {
+  width: auto;
+  height: 450px;
+  margin: 20px;
+  margin-top: -70px;
+  margin-left: 50px;
+}
+
+.profil {
+  width: 30%;
+  float: right;
+}
+
+.info {
+  width: 70%;
+  float: left;
+}
+
+.info p {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/*  */
+/*  */
+/* hobi */
+/*  */
+/*  */
+
+.konten {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.panel {
+  width: 25%;
+  margin: 15px;
+  float: left;
+}
+
+.panel:hover {
+  width: 30%;
+  margin: 0;
+}
+
+.img-hobi img {
+  width: 100%;
+}
+
+.caption {
+  text-align: center;
+}
+
+.hr1 {
+  border: 2px solid rgb(192, 0, 0);
+}
+
+.hr2 {
+  border: 2px solid rgb(209, 195, 0);
+}
+.hr3 {
+  border: 2px solid rgb(0, 122, 192);
+}
+.hr4 {
+  border: 2px solid rgb(0, 192, 58);
+}
+
+.judul-cap1 {
+  color: rgb(192, 0, 0);
+}
+.judul-cap2 {
+  color: rgb(209, 195, 0);
+}
+.judul-cap3 {
+  color: rgb(0, 122, 192);
+}
+.judul-cap4 {
+  color: rgb(0, 192, 58);
+}
+
+/*  */
+/*  */
+/* kontak */
+/*  */
+/*  */
+
+.ikon {
+  text-decoration: none;
+  color: rgb(53, 53, 53);
+  font-size: 250%;
+}
+
+.ikon:hover {
+  color: rgb(0, 122, 192);
+}
+
+.no-line {
+  border: none;
+}
+
+/*  */
+/*  */
+/* pengalaman & Pendidikan */
+/*  */
+/*  */
+
+table,
+th,
+td {
+  border: 3px solid white;
+  border-collapse: collapse;
+}
+
+thead {
+  background: #fff;
+  color: rgb(0, 122, 192);
+}
+
+td {
+  padding: 10px;
+}
+
+.col-tahun {
+  width: 10%;
+  text-align: center;
+}
+
+.col-inst {
+  width: 15%;
+  text-align: center;
+}
+
+.col-pos {
+  width: 10%;
+  text-align: center;
+}
+
+.col-desk {
+  width: 30%;
+}
+
+.col-desk ul {
+  margin: 0;
+}
+
+.kuots {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.kuot {
+  text-align: center;
+  font-size: 200%;
+  float: left;
+  width: 60%;
+}
+
+.kuotan {
+  text-align: center;
+  float: left;
+  width: 20%;
+  padding-top: 30px;
+}
+
+/*  */
+/*  */
+/* skills */
+/*  */
+/*  */
+
+.konten h2 {
+  margin: 0px;
+}
+
+.list {
+  margin-top: 10px;
+}
+
+.progres {
+  border: 1px solid white;
+  width: 300px;
+  height: 8px;
+  border-radius: 5px;
+}
+
+.nilaiprog {
+  border: 4px solid;
+  border-radius: 5px;
+}
+
+.list li {
+  margin-bottom: 10px;
+}
+
+ol {
+  columns: 2;
+  margin: 0;
+  padding: 0;
+}
+
+.kat {
+  margin: 50px;
+  margin-top: 0;
+}
