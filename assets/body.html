@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<head>
+    <title>Informasi & Aksi Telegram</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <div id="body-content">
+        </div>
+<script src="assets/allaction.js"></script>
+<script src="assets/deletewhok.js"></script>
+<script src="assets/eror.js"></script>
+<script src="assets/hasil.js"></script>
+<script src="assets/infowhok.js"></script>
+<script src="assets/musik.js"></script>
+<script src="assets/result.js"></script>
+    <script>
+        fetch('assets/body.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('body-content').innerHTML = data;
+            })
+            .catch(error => {
+                console.error('Gagal memuat konten body:', error);
+            });
+    </script>
+</body>
+</html>
